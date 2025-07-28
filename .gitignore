@@ -1,0 +1,63 @@
+# (Uvicorn + FastAPI)
+# --------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+*.sqlite3
+.env
+.venv/
+venv/
+env/
+dist/
+build/
+*.db
+.DS_Store
+#
+# # VSCode
+.vscode/
+
+# OS/macOS
+Thumbs.db
+.DS_Store
+
+# --------------------
+# Node.js (React)
+# --------------------
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.vitepress/cache/
+
+# If you use Bun instead of npm/yarn
+frontend/.bun/
+
+# --------------------
+# General
+# --------------------
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Coverage reports
+coverage/
+*.lcov
+
+# IDEs
+.idea/
+*.iml
+
+# Test cache
+.pytest_cache/
+jest-coverage/
+
